@@ -232,8 +232,12 @@ body {
 	background-position: center center;
 }
 
+#slide-1 img {
+  padding-top: 10px;
+}
+
 #slide-1 h1 {
-	padding-top: 130px;
+
 }
 
 @media (max-width: 991px) {
@@ -324,6 +328,10 @@ body {
 		padding-bottom: 40px;
 		padding-top: 40px;
 	}
+
+  .subtitle-row-less {
+    font-size: 35px;
+  }
 
 	.content-row {
 		padding-top: 45px;
