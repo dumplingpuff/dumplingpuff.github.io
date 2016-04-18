@@ -77,12 +77,13 @@ body {
 
 .navbar-responsive-collapse {
 	margin: 0 auto;
-	width: 80%;
+	width: 400px;
 }
 
 .nav li {
 	text-align: center;
 	white-space: nowrap;
+	margin: 0 17px;
 }
 
 .nav > li > a:hover,
@@ -223,9 +224,9 @@ body {
     -o-background-size: 100%;
     background-size: 100%;
 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
     background-size: cover;
     width: 100%;
 	background-attachment: relative;
@@ -243,6 +244,10 @@ body {
 @media (max-width: 991px) {
 	#slide-1 {
 		background-position: -70% 0, 170% 0;
+		background-image: none;
+		/*background-size: contain;
+		background-repeat: repeat-y;
+		background-position: 0 70px;*/
 	}
 }
 
