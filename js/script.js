@@ -1,8 +1,12 @@
 
 $(document).ready(function(e) {
-	// $('.with-hover-text, .regular-link').click(function(e){
-	// 	e.stopPropagation();
-	// });
+	$('.with-hover-text, .regular-link').click(function(e){
+		e.stopPropagation();
+	});
+
+	$('.project-block, .regular-link').click(function(e){
+		e.stopPropagation();
+	})
 
 	/***************
 	* = Hover text *
