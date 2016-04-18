@@ -77,13 +77,14 @@ body {
 
 .navbar-responsive-collapse {
 	margin: 0 auto;
-	width: 400px;
+	width: 490px;
 }
 
 .nav li {
 	text-align: center;
 	white-space: nowrap;
-	margin: 0 17px;
+	margin: 0;
+	width: 128px;
 }
 
 .nav > li > a:hover,
