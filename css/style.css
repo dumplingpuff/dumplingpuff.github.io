@@ -601,7 +601,7 @@ body {
 	background-position: 0 -30px;
 }
 
-#arrow-left {
+/*#arrow-left {
 	background-position: 30px -60px;
 	left: 0;
 	top: 25px;
@@ -609,7 +609,7 @@ body {
 
 #arrow-left.disabled {
 	background-position: 0 -60px;
-}
+}*/
 
 #arrow-right {
 	background-position: 30px -90px;
